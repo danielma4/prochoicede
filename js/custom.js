@@ -15,8 +15,8 @@
         nav: true,
         dots: false,
         
-        autoplaySpeed: 300,
-        smartSpeed: 500,
+        autoplaySpeed: 50,
+        smartSpeed: 100,
         responsive:{
           0:{
             items:1,
@@ -35,7 +35,7 @@
     // Banner Carousel
     var myCarousel = document.querySelector('#myCarousel')
     var carousel = new bootstrap.Carousel(myCarousel, {
-      interval: 1500,
+      interval: 6000,
     })
 
     // REVIEWS NAVIGATION
